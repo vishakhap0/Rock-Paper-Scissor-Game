@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    margin-top: 2rem;
+    font-size:3rem;
+    text-align: center;
+}
+button{
+    height:5cm;
+    width:5cm;
+    border-radius: 50%;
+    background-size: cover;
+    margin:1cm; 
+}
+.myButton{
+    margin:0cm 8cm;
+}
+button:hover{
+    opacity: 0.8;
+    border:1cm red;
+}
+
+.para{
+    display:flex;
+    justify-content:center;
+}
+.score-board
+{
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+#user-score, #com-score{
+    font-size: 4rem;
+}
+#msg{
+    height:2cm;
+    font-size: 2rem;
+    background-color:#081b31;
+    color:#fff;
+    display:inline;
+    margin-left:16cm;
+    padding:1rem;
+    border-radius:5rem;   
+}
+.msg-container{
+    margin-top:5rem;
+}
+
+
+
+
